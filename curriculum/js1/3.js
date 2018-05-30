@@ -5,8 +5,13 @@
  * @returns {string}
  */
 
-const solution = (a, b) => {
-  return 0;
+const solution = (x) => {
+  hello = ""
+  while (x >= 0) {
+    hello += "hello"
+    x--
+  }
+  return hello;
 };
 
 module.exports = {
